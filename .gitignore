@@ -1,3 +1,22 @@
+1_Architecture_Search/data/
+1_Architecture_Search/python/outputs/
+1_Architecture_Search/outputs/
+
+# 2_Architecture_Search_Kfold/notebooks/
+2_Architecture_Search_Kfold/outputs/
+
+# 3_FDA/*.ipynb
+# 3_FDA/*.csv
+# 3_FDA/*.h5
+3_FDA/outputs/
+
+# 4_Architecture_finetune/models/
+# 4_Architecture_finetune/notebooks/
+4_Architecture_finetune/outputs/
+# 4_Architecture_finetune/CIFAR10/models/
+4_Architecture_finetune/CIFAR10/outputs/
+# 4_Architecture_finetune/CIFAR10/notebooks/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -106,6 +125,7 @@ celerybeat.pid
 .venv
 env/
 venv/
+venv_cuda10.0/
 ENV/
 env.bak/
 venv.bak/
