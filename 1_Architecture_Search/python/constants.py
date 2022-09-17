@@ -69,4 +69,4 @@ val_acc_name = "val_acc" if tf.__version__[0] == "1" else "val_accuracy"
 
 # Slack
 # slack_url = None
-slack_url = "https://hooks.slack.com/services/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"
+slack_url = None
